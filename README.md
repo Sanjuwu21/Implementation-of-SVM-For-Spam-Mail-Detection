@@ -15,7 +15,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 5. print the accuracy and classification report.
 
 ## Program:
-
+```
 /*
 Program to implement the SVM For Spam Mail Detection..
 Developed by: Sanjeev D
@@ -40,7 +40,7 @@ predictions=model.predict(x_test)
 print("accuracy:",accuracy_score(y_test,predictions))
 print("Classification report:")
 print(classification_report(y_test,predictions))
-
+```
 
 ## Output:
 ![WhatsApp Image 2024-05-09 at 01 27 07_dd9d8415](https://github.com/Sanjuwu21/Implementation-of-SVM-For-Spam-Mail-Detection/assets/146498969/93c8506e-13f5-4806-ac97-01028c4c1b4d)
